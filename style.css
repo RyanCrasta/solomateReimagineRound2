@@ -569,10 +569,6 @@ nav {
   width: 15rem;
 }
 
-.fourthSectionCtn {
-  background-color: lightblue;
-}
-
 .fourthSectionCtn h2 {
   font-size: 5.5rem !important;
   line-height: 5.5rem;
@@ -587,7 +583,6 @@ nav {
   font-size: 1.6rem;
   font-family: ApercuCondensedBoldPro;
   border-bottom: 1px solid #000;
-  background-color: lightcoral;
   /* width: 70%; */
   width: 50rem;
   margin: 0 auto;
@@ -727,7 +722,7 @@ nav {
   width: 100%;
   /* height: 15rem; */
   height: 25rem;
-  background-color: red;
+  /* background-color: red; */
   /* border-radius: 20rem; */
   overflow: hidden;
 }
@@ -866,7 +861,7 @@ nav {
 }
 
 .firstLine {
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .typeWriteerCtnMobile {
@@ -895,18 +890,18 @@ nav {
 }
 
 .secondLine {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .thirdLine {
-  background-color: green;
+  /* background-color: green; */
 }
 
 .fourthLine {
-  background-color: #8191e6;
+  background-color: #ffdd01;
   display: flex;
   justify-content: center;
 }
@@ -3403,7 +3398,7 @@ nav {
   }
 
   .thirdSectionCTN {
-    height: 120% !important;
+    height: 140% !important;
   }
 
   .heightUnset {
@@ -3453,6 +3448,14 @@ nav {
   }
 }
 
+@media (max-width: 450px) {
+  .firstCard img,
+  .secCard img,
+  .thirdCard img {
+    object-fit: contain;
+  }
+}
+
 @media (max-width: 380px) {
   .mySwiperTwo {
     padding: unset;
@@ -3464,12 +3467,6 @@ nav {
 
   .bigLettersCtn {
     padding: 2rem 1rem 0rem 2rem;
-  }
-
-  .firstCard img,
-  .secCard img,
-  .thirdCard img {
-    object-fit: contain;
   }
 
   .secVideoCtn h2,
@@ -3538,6 +3535,12 @@ nav {
   .shoeNameCtn p span {
     font-size: 4.5rem !important;
     line-height: 4.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .typeWriterSection {
+    height: unset !important;
   }
 }
 

@@ -14,11 +14,6 @@
 }
 
 @font-face {
-  font-family: CircularWebBook;
-  src: url("./fonts/CircularXXWeb-Book.ttf");
-}
-
-@font-face {
   font-family: TTTrailersVariable;
   src: url("./fonts/TTTrailersVariable.woff2");
 }
@@ -175,7 +170,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  /* background-color: #fffee1; */
 }
 
 nav {
@@ -186,7 +180,6 @@ nav {
   left: 0;
   top: 0;
   right: 0;
-  /* background-color: #ffdd01; */
   justify-content: space-between;
   z-index: 10;
   align-items: center;
@@ -218,7 +211,6 @@ nav {
 .btnTwoCtnOverlay {
   width: 10rem;
   background-color: #fff;
-  /* padding: 1rem 0; */
   height: 3rem;
   border: 1px solid #000;
   border-radius: 50px;
@@ -266,8 +258,6 @@ nav {
   justify-content: center;
   border: 1px solid #000;
   position: absolute;
-  /* right: 3px; */
-  /* bottom: 3px; */
   background-color: #fa4238;
 
   transition: all 0.2s ease;
@@ -277,7 +267,6 @@ nav {
   display: flex;
   overflow-x: hidden;
   padding: 1rem 0 1rem 1rem;
-  /* background-color: purple; */
   margin-top: 2rem;
 }
 
@@ -320,7 +309,6 @@ nav {
   text-transform: uppercase;
   font-size: 2rem;
   line-height: 2rem;
-  /* background-color: red; */
 }
 
 .btnCtn div:hover {
@@ -376,7 +364,6 @@ nav {
 .upperFirstSection {
   width: 100%;
   height: 60%;
-  /* background-color: #8191e6; */
   display: flex;
 }
 
@@ -470,9 +457,6 @@ nav {
 }
 
 .container section .content {
-  /* max-width: 800px; */
-  /* padding: 40px; */
-  /* text-align: center; */
   height: 100%;
   width: 100%;
 }
@@ -481,12 +465,6 @@ nav {
   font-size: 4em;
   color: #111;
   text-align: center;
-}
-
-.container section .content p {
-  /* font-size: 1.3em; */
-  /* color: #111; */
-  /* line-height: 1.4em; */
 }
 
 .thirdSection {
@@ -509,7 +487,6 @@ nav {
 .thirdSectionMainCtn div {
   margin-top: 2rem;
   width: 25%;
-  /* background-color: lightblue; */
   display: flex;
   justify-content: center;
   font-size: 1.1rem !important;
@@ -519,20 +496,13 @@ nav {
   position: absolute;
   right: 0px;
   bottom: 13rem;
-  /* background-color: #007dc4; */
   rotate: 0deg;
 }
 
 .soleImages img {
   width: 8rem;
-  /* rotate: -10deg; */
-
   transform-origin: 0px 400px;
   rotate: 90deg;
-}
-
-.blackSole {
-  /* rotate: 0deg !important; */
 }
 
 .thirdSection h2 {
@@ -583,7 +553,6 @@ nav {
   font-size: 1.6rem;
   font-family: ApercuCondensedBoldPro;
   border-bottom: 1px solid #000;
-  /* width: 70%; */
   width: 50rem;
   margin: 0 auto;
   padding: 0.25rem 0;
@@ -609,7 +578,6 @@ nav {
 }
 
 .shoePic {
-  /* background-color: orange; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -628,12 +596,9 @@ nav {
 
 .shoePic img {
   width: 80%;
-  /* height: 50%; */
-  /* object-fit: cover; */
 }
 
 .oneVideoCtn {
-  /* background-color: lightblue; */
   display: flex;
   align-items: center;
 }
@@ -662,14 +627,12 @@ nav {
 }
 
 .secVideoCtn {
-  /* background-color: green; */
   display: flex;
   align-items: center;
 }
 
 .sixthSection {
   background-color: #ffdd01;
-  /* border: 1px solid #000; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -695,14 +658,10 @@ nav {
 
 .eightSectionTitle {
   position: relative;
-  /* top: 10%; */
-  /* background-color: #0ece7c; */
 }
 
 .eightSectionTitle h1 {
   font-family: fontBody;
-  /* font-family: ApercuCondensedBoldPro; */
-  /* text-transform: uppercase; */
   font-size: 5rem;
   text-align: center;
   color: #fff;
@@ -712,7 +671,6 @@ nav {
   position: relative;
   height: 80%;
   width: 100%;
-  /* top: 20%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -720,29 +678,23 @@ nav {
 
 .capsule {
   width: 100%;
-  /* height: 15rem; */
   height: 25rem;
-  /* background-color: red; */
-  /* border-radius: 20rem; */
   overflow: hidden;
 }
 
 .capsule video {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
 }
 
 .bigCircle {
   width: 100rem;
   height: 100rem;
-  /* background-color: #fa4238; */
   border-radius: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
-  /* position: relative; */
 }
 
 .leftCurve,
@@ -783,7 +735,6 @@ nav {
   height: 60vh;
   background-color: #8191e6;
   margin-top: 5rem;
-  /* rotate: 45deg; */
 }
 
 .firstCard img,
@@ -833,16 +784,9 @@ nav {
   height: 25%;
 }
 
-/* .firstTypeWriter {
-  display: inline-block;
-  width: 25rem;
-} */
-
 .capsuleVideo {
   width: 20rem;
   height: 90%;
-  /* background-color: #007dc4; */
-  /* border-radius: 50rem; */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -858,10 +802,6 @@ nav {
 .thirdLine > div {
   width: 100%;
   height: 100%;
-}
-
-.firstLine {
-  /* background-color: orange; */
 }
 
 .typeWriteerCtnMobile {
@@ -890,14 +830,9 @@ nav {
 }
 
 .secondLine {
-  /* background-color: lightblue; */
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.thirdLine {
-  /* background-color: green; */
 }
 
 .fourthLine {
@@ -909,9 +844,6 @@ nav {
 .halfCircle {
   width: 30rem;
   height: 120%;
-
-  /* scale: 1.1; */
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -922,9 +854,6 @@ nav {
   position: absolute;
   left: 0;
   width: 6rem;
-  /* animation: name duration timing-function delay iteration-count direction
-    fill-mode; */
-  /* animation: moveArrow 1s ease-in infinite forwards; */
 }
 
 .curveLeft {
@@ -951,7 +880,6 @@ nav {
   left: 0;
   bottom: 0;
   right: 0;
-  /* z-index: -1; */
   transition: all 0.5s ease;
   border-top-right-radius: 100rem;
   border-top-left-radius: 100rem;
@@ -1016,8 +944,6 @@ nav {
 
 .qtyCtn {
   width: 6.5rem;
-  /* background-color: red; */
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1038,14 +964,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-
   border-top: 4px solid #000;
   border-left: 4px solid #000;
   border-right: 4px solid #000;
   border-bottom: 8px solid #000;
-
   transition: all 0.2s ease;
-
   cursor: pointer;
 }
 
@@ -1091,7 +1014,6 @@ nav {
   border-right: 4px solid #000;
   border-bottom: 8px solid #000;
   background-color: #e4e4e4;
-
   align-items: center;
 }
 
@@ -1108,22 +1030,15 @@ nav {
   font-family: fontBody;
   font-size: 3rem;
   color: #fff;
-
-  /* -webkit-text-stroke-width: 1.2px; */
-  /* -webkit-text-stroke-color: black; */
 }
 
 .ctaFN {
   height: 40%;
   width: 100%;
-  /* background-color: #fbe6ab; */
   display: flex;
   justify-content: space-around;
-
-  /* border: 1px solid gray; */
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-
   align-items: center;
 }
 
@@ -1133,7 +1048,6 @@ nav {
   padding: 1rem 2rem;
   text-transform: uppercase;
   border-radius: 2rem;
-  /* width: 35%; */
   border: 2px solid #000;
   cursor: pointer;
   position: relative;
@@ -1183,12 +1097,10 @@ nav {
 
 .oneProductCtn:hover {
   background-color: #ffb6c1;
-  /* b8466a */
 }
-/* #ce4f48 */
+
 .twoProductCtn:hover {
   background-color: #a7bed7;
-  /* #f88379; */
 }
 
 .twoProduct .cardName {
@@ -1197,8 +1109,6 @@ nav {
 
 .threeProductCtn:hover {
   background-color: #aaa9a9;
-
-  /* #f9f5aa; */
 }
 
 .threeProduct .cardName {
@@ -1235,33 +1145,19 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   height: 70% !important;
-  /* height: 80% !important; */
   margin: 0 auto;
 }
 
 .bgCardImg {
-  /* position: absolute; */
   scale: 2;
-  /* left: 110%; */
-  /* transform: translateX(-50%); */
-  /* top: -15%; */
 }
 
 .darkBgImg {
   position: absolute;
   scale: 2;
-  /* left: -30%; */
-  /* transform: translateX(-50%); */
   bottom: 0%;
   opacity: 0;
   left: 0;
-}
-
-.twoProduct {
-  /* background-color: #8f61c5; */
-}
-
-.oneProduct img {
 }
 
 .colorSelectionCtn {
@@ -1355,7 +1251,6 @@ nav {
 .footerLinksSection {
   width: 50rem;
   max-width: 50rem;
-  /* background-color: #007dc4; */
   height: 90%;
   display: flex;
   align-items: end;
@@ -1420,13 +1315,11 @@ nav {
   margin: 1rem 0 1rem 1rem;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   padding-left: 1rem;
   font-size: 1.5rem !important;
   font-family: fontBody;
-
   border: 2px solid #000;
 }
 
@@ -1435,13 +1328,11 @@ nav {
   margin: 1rem 1rem 1rem 0rem;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   font-family: fontBody;
   font-size: 1.5rem !important;
   border: 2px solid #000;
-
   background-color: #6add71;
   cursor: pointer;
 }
@@ -1468,10 +1359,6 @@ nav {
 
 .starImage {
   width: 18rem;
-}
-
-.firstFormSection > div {
-  /* width: 45%; */
 }
 
 .starImageCtn {
@@ -1509,7 +1396,6 @@ nav {
 }
 
 .ourStory {
-  /* width: 30%; */
   width: 25%;
   height: 80%;
   background-color: #eea497;
@@ -1529,7 +1415,6 @@ nav {
 
 .artists {
   height: 90%;
-  /* width: 30%; */
   width: 25%;
   background-color: #9d9f9f;
   overflow: hidden;
@@ -1554,7 +1439,6 @@ nav {
 
 .verticalTextAlign {
   writing-mode: vertical-rl;
-  /* margin-left: 1rem; */
   font-family: ApercuRegular;
   text-transform: uppercase;
 }
@@ -1569,7 +1453,6 @@ nav {
   position: absolute;
   right: 1rem;
   bottom: 22vh;
-  /* background-color: red; */
   overflow: hidden;
 }
 
@@ -1623,10 +1506,6 @@ nav {
   height: 100%;
   object-fit: cover;
 }
-
-/* .halfCircle:hover .halfCircleText {
-  scale: 0.5;
-} */
 
 .typeWriteerCtn {
   width: 60%;
@@ -1692,9 +1571,8 @@ nav {
 
 .fullImgProductTwo img {
   transform-origin: 1200px 550px;
-  /* rotate: -300deg; */
 }
-/* -1000 300   -600 400*/
+
 .fullImgProductOne p,
 .fullImgProductTwo p {
   font-family: Thunder;
@@ -1714,8 +1592,6 @@ nav {
   background-color: #cdc9b9;
   position: relative;
   display: unset;
-  /* top: 40%; */
-
   display: flex;
 }
 
@@ -1788,15 +1664,9 @@ nav {
 }
 
 .thirteenSection {
-  /* background-color: #eff0f4; */
   position: relative;
   background-repeat: no-repeat;
-  /* background: url("https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
-
-  /* background: url('https://images.unsplash.com/photo-1567628065080-ecdec09a7588?q=80&w=1960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
-
   background: url("https://images.unsplash.com/photo-1521802077481-0d9be31078ba?q=80&w=1848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-
   background-size: cover;
 }
 
@@ -1985,16 +1855,6 @@ nav {
   align-items: center;
 }
 
-.fixedCtnMain > div {
-  /* width: 5.71rem;
-  height: 8rem;
-  background-color: pink;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  overflow: hidden; */
-}
-
 .circleRing,
 .oneNumber,
 .twoNumber,
@@ -2063,7 +1923,6 @@ nav {
   align-items: center;
   background-color: #6e80e5;
   overflow: hidden;
-
   flex-direction: column;
 }
 
@@ -2089,7 +1948,6 @@ nav {
   background-position: center;
   background-size: cover;
   width: 420px;
-  /* height: 300px; */
   background: #fff;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
   filter: blur(4px);
@@ -2128,7 +1986,6 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
   position: absolute;
   top: 0;
   left: 0;
@@ -2200,7 +2057,6 @@ nav {
   font-size: 20rem !important;
   line-height: 23rem;
   text-transform: uppercase;
-
   transform: translateY(100%);
 }
 
@@ -2209,14 +2065,12 @@ nav {
   width: 100%;
   height: 65%;
   background-color: green;
-
   overflow: hidden;
 }
 
 .items {
   height: 100%;
   width: 200%;
-  /* left: 5000px; */
   position: relative;
   background-color: #fdfbf5;
   border: 1px solid #fff;
@@ -2236,7 +2090,6 @@ nav {
   border: 1px solid #fff;
   flex-grow: 1;
   flex-shrink: 0;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2248,7 +2101,6 @@ nav {
   height: 70%;
   border: 3px solid #fff;
   position: relative;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2266,7 +2118,6 @@ nav {
   height: 100%;
   object-fit: contain;
   position: absolute;
-  /* left: 0; */
   top: 0;
   opacity: 0;
   transition: all 0.5s ease;
@@ -2280,7 +2131,6 @@ nav {
   right: 1rem;
   transition: all 0.5s ease;
   display: flex;
-  /* background-color: red; */
   gap: 1.5rem;
 }
 
@@ -2363,16 +2213,11 @@ nav {
   position: absolute;
   width: 10rem;
   height: 4rem;
-  /* border-radius: 50px; */
   border: 1px solid #fff;
   top: 0;
   left: 20rem;
   opacity: 0;
   cursor: pointer;
-  /* transition: all 0.5s ease; */
-
-  /* transform: scaleX(1.5); */
-
   pointer-events: none;
 }
 
@@ -2388,11 +2233,6 @@ nav {
   font-family: ApercuCondensedBoldPro;
   color: #fff !important;
 }
-
-/* .swiper-img-slide img {
-  display: block;
-  width: 100%;
-} */
 
 .fifteenSection {
   width: 100%;
@@ -2551,21 +2391,12 @@ nav {
   .rightNav {
     width: 50%;
   }
-  /*
-  .fourthSection {
-    gap: 3rem;
-  } */
-
   .firstLine p,
   .secondLine p,
   .thirdLine p {
     font-size: 5.5rem;
     line-height: 5.5rem;
   }
-
-  /* .shoeNameCtn p span {
-    font-size: 18rem !important;
-  } */
 
   .cardName {
     font-size: 2rem;
@@ -2867,7 +2698,6 @@ nav {
     display: block;
     width: 10rem;
     background-color: #fff;
-    /* padding: 1rem 0; */
     height: 3rem;
     border: 1px solid #000;
     border-radius: 50px;
@@ -2926,7 +2756,6 @@ nav {
     display: flex;
     width: 100%;
     height: 35%;
-    /* background-color: red; */
   }
 
   .leftShoeImg,
@@ -2976,20 +2805,6 @@ nav {
     flex-shrink: 0;
   }
 
-  .bgggggg {
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    flex-shrink: 0;
-  }
-
-  .ggggggg {
-    width: 100%;
-    height: 100%;
-    background-color: pink;
-    flex-shrink: 0;
-  }
-
   html,
   body {
     overflow-y: scroll !important;
@@ -3027,16 +2842,6 @@ nav {
     position: relative;
   }
 
-  .thirdSectionMainCtn {
-    /* position: absolute;
-    top: 5rem; */
-    /* height: 75%; */
-  }
-
-  .soleImages {
-    /* height: 10%; */
-  }
-
   .soleImages img {
     width: 5.5rem;
     rotate: 0deg;
@@ -3046,7 +2851,6 @@ nav {
     bottom: 3rem;
     right: unset;
     rotate: -12deg;
-
     position: unset;
   }
 
@@ -3092,11 +2896,6 @@ nav {
   .rightCurve {
     width: 95%;
   }
-
-  /* .leftCurve img,
-  .rightCurve img {
-    width: 6rem !important;
-  } */
 
   .leftCurve img {
     rotate: 0deg;
@@ -3202,8 +3001,6 @@ nav {
   }
 
   .shoeNameCtn p {
-    /* transform: translateY(-50%);
-    top: 50%; */
     text-align: center;
     left: unset;
   }
@@ -3339,10 +3136,6 @@ nav {
   .formFill {
     width: 95%;
     margin-bottom: 1rem;
-  }
-
-  .nineSection {
-    /* height: unset !important; */
   }
 
   .footerLinksSection {
@@ -3503,10 +3296,6 @@ nav {
     font-size: 2.5rem !important;
     line-height: 2.5rem !important;
   }
-
-  /* #lemkusSection {
-    margin-top: 15rem;
-  } */
 
   .shoeName h2 {
     font-size: 1.8rem !important;

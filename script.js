@@ -16,18 +16,6 @@ var swiper = new Swiper(".mySwiper", {
   allowTouchMove: false,
 });
 
-// gsap.to(".thirdSection", {
-//   scale: 1.5,
-//   duration: 2,
-//   scrollTrigger: {
-//     trigger: ".thirdSection",
-//     scrub: 5,
-//     markers: true,
-//     scroller: "body",
-//     start: "bottom -5%",
-//   },
-// });
-
 function myFunction(x) {
   if (x.matches) {
     // If media query matches
@@ -38,7 +26,6 @@ function myFunction(x) {
       scrollTrigger: {
         trigger: ".thirdSection",
         scrub: 5,
-        markers: true,
         scroller: "body",
         start: "bottom -5%",
       },
@@ -51,7 +38,6 @@ function myFunction(x) {
       scrollTrigger: {
         trigger: ".fourthSection",
         scrub: 5,
-        markers: true,
         scroller: "body",
         start: "bottom -60%",
       },
@@ -68,25 +54,10 @@ gsap.to(".thirdSection", {
   scrollTrigger: {
     trigger: ".fourthSection",
     scrub: 5,
-    markers: true,
     scroller: "body",
     start: "bottom -70%",
   },
 });
-
-// gsap.to(".soleImages", {
-//   right: "-50px",
-//   rotate: "-10deg",
-//   stagger: 4,
-
-//   scrollTrigger: {
-//     trigger: ".fourthSection",
-//     scrub: 5,
-//     markers: true,
-//     scroller: "body",
-//     start: "bottom -180%",
-//   },
-// });
 
 let lastScrollTop = 0;
 let timer = null;
@@ -336,18 +307,6 @@ gsap
   );
 // code for animation human
 
-// gsap.to(".middleSectionCircle", {
-//   y: "-100%",
-//   // duration: 100,
-//   scrollTrigger: {
-//     pin: true,
-//     body: ".bigCircle",
-//     trigger: ".seventhSection",
-//     scrub: 5,
-//     start: "bottom -450%",
-//   },
-// });
-
 // drag and scroll
 
 const box = document.getElementById("middleSectionCircleID");
@@ -438,16 +397,6 @@ function cursorEffect(cursorId, pageContent) {
 }
 
 cursorEffect("#eyeCursorID", document.querySelector("#abraKaDabraID"));
-
-// gsap.set(".eyeCursor", { xPercent: -50, yPercent: -50 });
-
-// let xSetter = gsap.quickSetter(".eyeCursor", "x", "px"); //apply it to the #id element's x property and append a "px" unit
-// let ySetter = gsap.quickSetter(".eyeCursor", "y", "px"); //apply it to the #id element's x property and append a "px" unit
-
-// document.querySelector("#abraKaDabraID").addEventListener("mousemove", (e) => {
-//   xSetter(e.x);
-//   ySetter(e.y);
-// });
 
 gsap.to(".curveRight", {
   x: "10",
@@ -782,10 +731,12 @@ const writeLoopMobile = async (phrases) => {
 
 writeLoopMobile(mainPhases);
 
-gsap.to(".fullImgProductOne img, .fullImgProductTwo img", {
-  yPercent: "-50",
-  xPercent: "-50",
-});
+if (!window.matchMedia("(max-width: 500px)").matches) {
+  gsap.to(".fullImgProductOne img, .fullImgProductTwo img", {
+    yPercent: "-50",
+    xPercent: "-50",
+  });
+}
 
 gsap.to(".fullImgProductOne img", {
   rotate: "-65deg",
@@ -1148,7 +1099,6 @@ document
 if (!window.matchMedia("(max-width: 500px)").matches) {
   Draggable.create(".items", {
     bounds: ".realShoeImages",
-    //allowNativeTouchScrolling:false,
     type: "x",
   });
 }
@@ -1224,9 +1174,6 @@ gsap.to(".shoeNameCtn p span", {
   },
 });
 
-// document.querySelector("#myBody").style.overflowY = "scroll !important";
-// document.querySelector("html").style.overflowY = "scroll !important";
-
 // FOR MOBILE MENU
 document.querySelector(".btnCtnTwoMenu div").addEventListener("click", () => {
   document.querySelector(".btnCtnTwoMenu div").style.right = "0";
@@ -1259,9 +1206,6 @@ document.querySelector(".btnCtnTwoMenu div").addEventListener("click", () => {
 
     document.querySelector(".overlayNavigation").style.zIndex = "-1";
     document.querySelector(".overlayNavigation").style.opacity = "0";
-
-    // document.querySelector("html").style.overflowY = "scroll !important";
-    // document.querySelector("#myBody").style.overflowY = "scroll !important";
 
     document
       .querySelector("html")

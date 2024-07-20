@@ -263,17 +263,6 @@ gsap
     },
     0
   )
-  // .fromTo(
-  //   walkcontent,
-  //   {
-  //     xPercent: 0,
-  //   },
-  //   {
-  //     xPercent: -50,
-  //     easy: "none",
-  //   },
-  //   0
-  // )
 
   .fromTo(
     bodyTimeline,
@@ -396,7 +385,7 @@ function cursorEffect(cursorId, pageContent) {
     .addEventListener("mouseleave", scaleDown);
 }
 
-cursorEffect("#eyeCursorID", document.querySelector("#abraKaDabraID"));
+cursorEffect("#eyeCursorID", document.querySelector("#sixthSectionID"));
 
 gsap.to(".curveRight", {
   x: "10",
@@ -682,8 +671,6 @@ const writeLoop = async (phrases) => {
 
 writeLoop(mainPhases);
 
-// writeLoop(elPerson, personPhases);
-
 const elTagMobile = document.getElementById("typewriterMobile");
 const elPersonMobile = document.getElementById("typewriterPersonMobile");
 
@@ -711,8 +698,6 @@ const writeLoopMobile = async (phrases) => {
       elPersonMobile.innerText = curWord.substring(0, i - 1);
       await sleep(sleepTime);
     }
-
-    // await sleep(sleepTime * 10);
 
     for (let i = curWordTag.length; i > 0; i--) {
       elTagMobile.innerText = curWordTag.substring(0, i - 1);

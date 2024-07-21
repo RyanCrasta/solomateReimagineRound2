@@ -1,3 +1,18 @@
+gsap.to("#myBody", {
+  overflow: "hidden",
+});
+
+gsap.to("#loadingCtn", {
+  delay: 12,
+  opacity: 0,
+  zIndex: -1,
+});
+
+gsap.to("#myBody", {
+  overflow: "auto",
+  delay: 12,
+});
+
 gsap.to(".lastLowerSection img", {
   x: 45,
   repeat: -1,
@@ -778,40 +793,41 @@ gsap.to(".elevenSection", {
 gsap.from(".dummyNavSection", {
   width: 0,
   duration: 1,
+  delay: 12,
 });
 // homePageAnimateMobile
 gsap.from(".homePageSwiperAnimate, .homePageAnimateMobile", {
   width: 0,
   duration: 2,
   stagger: 0.5,
-  delay: 1,
+  delay: 12,
 });
 
 setTimeout(() => {
   document.querySelector(".firstSection").classList.add("swiper");
   document.querySelector(".lastSectionSwiper").classList.add("swiper");
-}, 4000);
+}, 16000);
 
 gsap.from(".homePageAnimate", {
   width: "0",
   duration: 2,
   stagger: 0.5,
-  delay: 2,
+  delay: 14,
 });
 
 gsap.to(".navbtn", {
   y: "0",
-  delay: 5,
+  delay: 17,
   stagger: 0.2,
 });
 
 gsap.to(".reelVideo", {
   opacity: 1,
-  delay: 4,
+  delay: 16,
 });
 
 gsap.to(".mainTextCtn div", {
-  delay: 4,
+  delay: 16,
   y: "0",
   stagger: 0.2,
   opacity: 1,
@@ -821,11 +837,11 @@ gsap.to(".swiper-wrapper-one, .swiper-wrapper-two", {
   opacity: 1,
   duration: 1,
   ease: "power1.in",
-  delay: 4,
+  delay: 16,
 });
 
 gsap.to(".lastLowerSection img", {
-  delay: 5,
+  delay: 17,
   opacity: 1,
 });
 

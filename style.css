@@ -73,6 +73,14 @@ body {
   justify-content: center;
 }
 
+#loadingCtn {
+  position: fixed;
+  z-index: 100;
+  background-color: lightblue;
+  width: 100vw;
+  height: 100vh;
+}
+
 .navbtn {
   transform: translateY(-200%);
 }

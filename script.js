@@ -2,6 +2,10 @@ gsap.to("#myBody", {
   overflow: "hidden",
 });
 
+gsap.to(".animation-container", {
+  opacity: 0,
+});
+
 gsap.to("#loadingCtn", {
   delay: 12,
   opacity: 0,
@@ -18,6 +22,11 @@ gsap.to(".lastLowerSection img", {
   repeat: -1,
   duration: 1,
   yoyo: true,
+});
+
+gsap.to(".animation-container", {
+  opacity: 1,
+  delay: 12,
 });
 
 var swiper = new Swiper(".mySwiper", {

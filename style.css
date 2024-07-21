@@ -76,7 +76,6 @@ body {
 .loading-container {
   height: 80px;
   width: max-content;
-  border: 2px solid #fff;
   position: absolute;
   left: 0;
   right: 0;

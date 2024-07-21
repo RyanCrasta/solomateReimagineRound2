@@ -73,9 +73,110 @@ body {
   justify-content: center;
 }
 
+.loading-container {
+  height: 80px;
+  width: max-content;
+  border: 2px solid #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.loading-container > span {
+  font-size: 6rem;
+  line-height: 5rem;
+  font-family: ApercuCondensedBoldPro;
+  color: transparent;
+  -webkit-text-stroke: 2px #262626;
+  animation: 4.2s infinite forwards linear;
+}
+
+span:nth-child(1) {
+  animation-name: fill1;
+}
+
+@keyframes fill1 {
+  13% {
+    color: transparent;
+  }
+  14.2% {
+    color: #ffdd01;
+  }
+  100% {
+    color: #ffdd01;
+  }
+}
+
+span:nth-child(2) {
+  animation-name: fill2;
+}
+
+@keyframes fill2 {
+  27% {
+    color: transparent;
+  }
+  28.4% {
+    color: #0ece7c;
+  }
+  100% {
+    color: #0ece7c;
+  }
+}
+
+span:nth-child(3) {
+  animation-name: fill3;
+}
+
+@keyframes fill3 {
+  41% {
+    color: transparent;
+  }
+  42.6% {
+    color: #fa4238;
+  }
+  100% {
+    color: #fa4238;
+  }
+}
+
+span:nth-child(4) {
+  animation-name: fill4;
+}
+
+@keyframes fill4 {
+  55% {
+    color: transparent;
+  }
+  56.8% {
+    color: #8191e6;
+  }
+  100% {
+    color: #8191e6;
+  }
+}
+
+span:nth-child(5) {
+  animation-name: fill5;
+}
+
+@keyframes fill5 {
+  69% {
+    color: transparent;
+  }
+  70.8% {
+    color: #007dc4;
+  }
+  100% {
+    color: #007dc4;
+  }
+}
+
 #loadingCtn {
   position: fixed;
-  z-index: 100;
+  z-index: 49;
   background-color: lightblue;
   width: 100vw;
   height: 100vh;

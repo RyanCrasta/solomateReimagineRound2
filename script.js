@@ -12,10 +12,17 @@ gsap.to("#loadingCtn", {
   zIndex: -1,
 });
 
-gsap.to("#myBody", {
-  overflow: "auto",
+gsap.to("#myBody, #mainHTML", {
+  overflowY: "scroll",
+  overflowX: "hidden",
   delay: 12,
 });
+
+setTimeout(() => {
+  document
+  .querySelector("html")
+  .style.setProperty("overflow-y", "scroll", "important");
+}, 12000)
 
 gsap.to(".lastLowerSection img", {
   x: 45,

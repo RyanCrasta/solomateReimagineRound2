@@ -2913,12 +2913,6 @@ nav {
     flex-shrink: 0;
   }
 
-  html,
-  body {
-    overflow-y: scroll !important;
-    overflow-x: hidden;
-  }
-
   #elevenSectionID {
     overflow-x: hidden;
   }
